@@ -34,7 +34,7 @@ h1 {
 .form-class {
   flex-direction: column;
   align-items: center;
-  display: none;
+  display: flex;
 }
 
 .form-class .form-group {
@@ -97,11 +97,17 @@ th {
   border-collapse: collapse;
   margin: 25px auto;
   font-size: 0.9em;
+  display: none;
 }
+
 
 .booksContainer tbody tr:nth-of-type(odd) {
   background-color: #ddd;
   text-align: end;
+}
+
+h1.book-head{
+  display: none;
 }
 
 #book-list tr,
