@@ -66,7 +66,7 @@ Example commands:
 
 Install this project with:
 
-- to install locally run git clone https://github.com/Sammy3000/Book-App.git
+- to install locally run git clone git@github.com:elhamatokhi/awesomeBook-ES6.git
 - open the cloned directory with VSCode
 - Install live server extension for VSCode
 - Right click on the index.html and select open with live servers
