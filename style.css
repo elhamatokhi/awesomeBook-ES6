@@ -100,13 +100,12 @@ th {
   display: none;
 }
 
-
 .booksContainer tbody tr:nth-of-type(odd) {
   background-color: #ddd;
   text-align: end;
 }
 
-h1.book-head{
+h1.book-head {
   display: none;
 }
 

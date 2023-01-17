@@ -1,6 +1,8 @@
-import { DateTime } from "./luxon.js";
-export const now = DateTime.now();
-let date = document.querySelector(".time");
-let months = ["Jan", "Feb", "Mar", "Apr", "Aug", "Sep", "Oct", "Nov", "Dec"];
-let month = months[now.c.month - 1];
-date.innerHTML = `${month} ${now.c.day} ${now.c.year},  ${now.c.hour}:${now.c.minute}:${now.c.second}`;
+import { DateTime } from './luxon.js';
+
+const now = () => {
+  const time = DateTime.local();
+  const date = document.querySelector('.time');
+  date.innerHTML = `${time.toLocaleString(DateTime.DATETIME_SHORT)}`;
+};
+export default now;
