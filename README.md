@@ -19,9 +19,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [BOOK APP] <a name="about-project"></a>
+# 📖 [awesomeBook-ES6] <a name="about-project"></a>
 
-- In this project, WE will built a basic website that allows users to add/remove books from a list .
+- In this project, I built a basic website that allows users to add/remove books from a list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,14 +78,6 @@ Install this project with:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> This is a collaborative project
-
-👤 **Towett Sammy**
-
-- GitHub: [@sam](https://github.com/Sammy3000)
-- Twitter: [@towettsam](https://twitter.com/sammy15375658)
-- LinkedIn: [@towettSammy](https://www.linkedin.com/in/towett-sammy-43476024a/)
 
 👤 **Elhama Tokhi**
 
