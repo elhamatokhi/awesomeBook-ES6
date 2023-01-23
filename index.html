@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Awesome-Book</title>
+    <script defer src="./modules/index.js" type="module"></script>
+  </head>
+  <body>
+
+    <!-------------- Navigation--------------->
+
+    <section class="main-container">
+      <nav class="main-nav">
+        <p class="name">Awesome Books</p>
+        <ul class="menu">
+          <li><a href="#" class="list-menu">List</a></li>
+          <li><a href="#" class="add-new">Add New</a></li>
+          <li><a href="#" class="contact-menu">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="date">
+        <p class="time"></p>
+      </div>
+
+      <!---------------------Book store------------------>
+
+      <table class="booksContainer">
+        <!-- <thead>
+          <tr>
+            <th>title</th>
+            <th>by</th>
+            <th>author</th>
+            <th></th>
+          </tr>
+        </thead> -->
+        <tbody id="book-list">
+          <h1 class="book-head">All awesome Books</h1>
+        </tbody>
+      </table>
+
+      <form id="book-form" class="form-class">
+        <h2 class="form-heading">Add a New Book</h2>
+        <div class="form-group">
+          <input
+            type="text"
+            id="tittle"
+            class="form-control"
+            placeholder="title"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="author"
+            class="form-control"
+            placeholder="author"
+            required
+          />
+        </div>
+        <input type="submit" value="add-book" class="btn" />
+      </form>
+      <!-----------------------CONTACT SECTION--------------------->
+      <section class="contact">
+        <h1>Contact Information</h1>
+        <p class="contact-info">
+          Do you have any questions or you just want to say "Hello"? You can
+          reach out to me!<br />
+        </p>
+
+        <ul>
+          <li>
+            My Email
+            <a href="bakhtmohammadtokhi@gmail.com"
+              >bakhtmohammadtokhi@gmail.com</a
+            >
+          </li>
+          <li>My phone number: +93 729 930 910</li>
+          <li>My address: fifth strict, Kabul, Afghanistan</li>
+        </ul>
+      </section>
+
+      <!---------------------Footer------------------>
+      <footer class="footer">
+        <p class="footer-content">&copy; Project made by Elhama</p>
+      </footer>
+    </section>
+  </body>
+</html>
