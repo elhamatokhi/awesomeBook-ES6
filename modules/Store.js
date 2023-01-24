@@ -11,13 +11,13 @@ export default class Store {
   }
 
   static addBook(book) {
-    const books = Store.getBooks();
+    const books = this.getBooks();
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
 
   static removeBook(title) {
-    const books = Store.getBooks();
+    const books = this.getBooks();
     books.forEach((book, index) => {
       if (book.title === title) {
         books.splice(index, 1);

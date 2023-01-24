@@ -10,60 +10,52 @@
     <script defer src="./modules/index.js" type="module"></script>
   </head>
   <body>
-
-    <!-------------- Navigation--------------->
-
     <section class="main-container">
-      <nav class="main-nav">
-        <p class="name">Awesome Books</p>
-        <ul class="menu">
-          <li><a href="#" class="list-menu">List</a></li>
-          <li><a href="#" class="add-new">Add New</a></li>
-          <li><a href="#" class="contact-menu">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="date">
-        <p class="time"></p>
-      </div>
-
+      <!-------------- Navigation--------------->
+      <section>
+        <nav class="main-nav">
+          <p class="name">Awesome Books</p>
+          <ul class="menu">
+            <li><a href="#" class="list-menu">List</a></li>
+            <li><a href="#" class="add-new">Add New</a></li>
+            <li><a href="#" class="contact-menu">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="date">
+          <p class="time"></p>
+        </div>
+      </section>
       <!---------------------Book store------------------>
+      <section>
+        <table class="booksContainer">
+          <tbody id="book-list">
+            <h1 class="book-head">All awesome Books</h1>
+          </tbody>
+        </table>
 
-      <table class="booksContainer">
-        <!-- <thead>
-          <tr>
-            <th>title</th>
-            <th>by</th>
-            <th>author</th>
-            <th></th>
-          </tr>
-        </thead> -->
-        <tbody id="book-list">
-          <h1 class="book-head">All awesome Books</h1>
-        </tbody>
-      </table>
-
-      <form id="book-form" class="form-class">
-        <h2 class="form-heading">Add a New Book</h2>
-        <div class="form-group">
-          <input
-            type="text"
-            id="tittle"
-            class="form-control"
-            placeholder="title"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <input
-            type="text"
-            id="author"
-            class="form-control"
-            placeholder="author"
-            required
-          />
-        </div>
-        <input type="submit" value="add-book" class="btn" />
-      </form>
+        <form id="book-form" class="form-class">
+          <h2 class="form-heading">Add a New Book</h2>
+          <div class="form-group">
+            <input
+              type="text"
+              id="tittle"
+              class="form-control"
+              placeholder="title"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="author"
+              class="form-control"
+              placeholder="author"
+              required
+            />
+          </div>
+          <input type="submit" value="add-book" class="btn" />
+        </form>
+      </section>
       <!-----------------------CONTACT SECTION--------------------->
       <section class="contact">
         <h1>Contact Information</h1>
